@@ -56,7 +56,7 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        "https://api.openweathermap.org/data/2.5/weather?lat=30.00&lon=31.10&appid=730456ac6d00248741f8273bbd5b6727",
+        "https://api.openweathermap.org/data/2.5/weather?lat=30.00&lon=31.10&appid={your openwhathermap key}",
         {
           cancelToken: new axios.CancelToken((C) => {
             // eslint-disable-next-line react-hooks/exhaustive-deps
